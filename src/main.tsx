@@ -4,7 +4,7 @@ import { AppRoutes } from './routes'
 import { AppProvider } from './providers'
 import './styles/index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('root') as Element).render(
   <React.StrictMode>
     <AppProvider>
       <AppRoutes />
