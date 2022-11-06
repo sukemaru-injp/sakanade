@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom';
+import Header from '../components/Header'
 
 type AppProviderProps = {
   children: ReactNode;
@@ -7,7 +8,8 @@ type AppProviderProps = {
 export const AppProvider: React.FC<AppProviderProps> = ({ children }) => {
   return (
     <>
-      <Router>{children}</Router>
+    <Header />
+    <Router>{children}</Router>
     </>
   )
 }
