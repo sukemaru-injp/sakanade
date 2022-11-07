@@ -90,7 +90,7 @@ export const makeMarginProps = (size: SizeType | SizeType[]): MarginProps => {
   return lastVal
 }
 
-const Space: FC<SpaceProps> = ({ size, children }) => {
+export const Space: FC<SpaceProps> = ({ size, children }) => {
   const marginProps = makeMarginProps(size)
 
   return (
@@ -99,5 +99,3 @@ const Space: FC<SpaceProps> = ({ size, children }) => {
     </Div>
   )
 }
-
-export default Space
