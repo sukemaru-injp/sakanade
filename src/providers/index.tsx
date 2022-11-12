@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Header from '../components/Header';
+import Header from '../components/parts/Header';
 import ThemeContext from './ThemeContext';
 
 type AppProviderProps = {
