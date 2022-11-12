@@ -13,10 +13,11 @@ const Header: React.FC<HeaderProps> = () => {
 const HeaderStyle = styled.header`
 position: sticky;
 top: 0;
-height: 50px;
+height: 70px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #ccc;
+background-color: ${({ theme }) => theme.color.main};
+color: ${({ theme }) => theme.color.sub};
 `;
 export default Header;
