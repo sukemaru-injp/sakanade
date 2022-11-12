@@ -1,5 +1,5 @@
-import { ThemeProvider } from 'styled-components'
-import React from 'react'
+import { ThemeProvider } from 'styled-components';
+import React from 'react';
 
 interface ColorType {
   main: string;
@@ -8,28 +8,27 @@ interface ColorType {
 }
 
 export type Theme = {
-    color: ColorType;
+  color: ColorType;
 };
 
 export const buildTheme = (): Theme => ({
-    color: {
-      main: "#142343",
-      sub: "#FBD349",
-      gray: "#F0EEEF",
-    },
+  color: {
+    main: '#142343',
+    sub: '#FBD349',
+    gray: '#F0EEEF',
+  },
 });
 
 interface Props {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 const ThemeContext: React.FC<Props> = ({ children }) => {
-
   return (
     <ThemeProvider theme={buildTheme()}>
       {children}
     </ThemeProvider>
-  )
-}
+  );
+};
 
-export default ThemeContext
+export default ThemeContext;

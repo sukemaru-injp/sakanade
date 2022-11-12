@@ -12,5 +12,5 @@ ReactDOM.createRoot(document.getElementById('root') as Element).render(
         <AppRoutes />
       </ScrollToTop>
     </AppProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
