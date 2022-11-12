@@ -4,6 +4,44 @@
     "build": "deno run -A --unstable --node-modules-dir npm:vite build",
     "preview": "deno run -A --unstable --node-modules-dir npm:vite preview",
     "serve": "deno run --allow-net --allow-read https://deno.land/std@0.157.0/http/file_server.ts dist/",
-    "lint": "deno lint -c deno.jsonc"
+    "lint": "deno lint -c deno.json",
+    "fmt": "deno fmt -c deno.json"
+  },
+  "compilerOptions": {
+    "lib": ["deno.window"],
+    "strict": true
+  },
+  "lint": {
+    "files": {
+      "include": [
+        "src"
+      ],
+      "exclude": ["node_modules"]
+    },
+    "rules": {
+      "tags": ["recommended"],
+      "exclude": [
+        "no-unused-vars",
+        "no-implicit-any",
+        "no-explicit-any",
+        "require-await",
+        "ban-ts-comment"
+      ]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": [
+        "src",
+        "deno.json"
+      ],
+      "exclude": ["node_modules"]
+    },
+    "options": {
+      "useTabs": false,
+      "lineWidth": 100,
+      "indentWidth": 2,
+      "singleQuote": true
+    }
   }
 }

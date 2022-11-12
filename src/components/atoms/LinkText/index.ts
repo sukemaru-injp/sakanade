@@ -1,1 +1,1 @@
-export * from './LinkText'
+export * from './LinkText';

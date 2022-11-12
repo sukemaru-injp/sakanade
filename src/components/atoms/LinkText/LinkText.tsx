@@ -4,12 +4,12 @@ import styled from 'styled-components';
 
 export const LinkText = ({ children, ...props }: LinkProps) => {
   return (
-    <LinkStyle {...props}> 
+    <LinkStyle {...props}>
       {children}
     </LinkStyle>
-  )
-}
+  );
+};
 
-const LinkStyle  = styled(RouterLink)`
+const LinkStyle = styled(RouterLink)`
 text-decoration: none;
-`
+`;

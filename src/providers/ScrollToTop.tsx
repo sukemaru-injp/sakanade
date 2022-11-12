@@ -2,10 +2,10 @@ import React, { useLayoutEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 interface Props {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 export const ScrollToTop: React.FC<Props> = ({ children }) => {
-  const location = useLocation()
+  const location = useLocation();
 
   useLayoutEffect(() => {
     document.documentElement.scrollTo(0, 0);
@@ -15,5 +15,5 @@ export const ScrollToTop: React.FC<Props> = ({ children }) => {
     <>
       {children}
     </>
-  )
-}
+  );
+};
