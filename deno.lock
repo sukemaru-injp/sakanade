@@ -9,6 +9,7 @@
       "react-dom": "react-dom@18.2.0",
       "react-icons": "react-icons@4.6.0",
       "react-router-dom": "react-router-dom@6.4.3",
+      "recoil": "recoil@0.7.6",
       "styled-components": "styled-components@5.3.6",
       "vite": "vite@3.2.2"
     },
@@ -525,6 +526,10 @@
         "integrity": "sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==",
         "dependencies": {}
       },
+      "hamt_plus@1.0.2": {
+        "integrity": "sha512-t2JXKaehnMb9paaYA7J0BX8QQAY8lwfQ9Gjf4pg/mk4krt+cmwmU652HOoWonf+7+EQV97ARPMhhVgU1ra2GhA==",
+        "dependencies": {}
+      },
       "has-flag@3.0.0": {
         "integrity": "sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==",
         "dependencies": {}
@@ -634,6 +639,10 @@
       "react@18.2.0": {
         "integrity": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
         "dependencies": { "loose-envify": "loose-envify@1.4.0" }
+      },
+      "recoil@0.7.6": {
+        "integrity": "sha512-hsBEw7jFdpBCY/tu2GweiyaqHKxVj6EqF2/SfrglbKvJHhpN57SANWvPW+gE90i3Awi+A5gssOd3u+vWlT+g7g==",
+        "dependencies": { "hamt_plus": "hamt_plus@1.0.2" }
       },
       "resolve@1.22.1": {
         "integrity": "sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==",
