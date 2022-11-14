@@ -5,6 +5,7 @@ import 'npm:react'
 import 'npm:react-dom/client'
 import 'npm:react-router-dom'
 import 'npm:styled-components'
+import 'npm:react-icons'
 
 // https://vitejs.dev/config/
 export default defineConfig({

@@ -1,6 +1,7 @@
 import React from 'react';
 import { LinkText } from '../atoms/LinkText';
 import styled from 'styled-components';
+import { TbPlaneDeparture} from 'react-icons/tb'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       </Test>
       <LinkText to='/sauna'>
         Goto Sauna
+        <TbPlaneDeparture />
       </LinkText>
     </>
   );

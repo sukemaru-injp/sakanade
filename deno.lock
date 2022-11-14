@@ -7,6 +7,7 @@
       "@vitejs/plugin-react": "@vitejs/plugin-react@2.2.0",
       "react": "react@18.2.0",
       "react-dom": "react-dom@18.2.0",
+      "react-icons": "react-icons@4.6.0",
       "react-router-dom": "react-router-dom@6.4.3",
       "styled-components": "styled-components@5.3.6",
       "vite": "vite@3.2.2"
@@ -606,6 +607,10 @@
           "loose-envify": "loose-envify@1.4.0",
           "scheduler": "scheduler@0.23.0"
         }
+      },
+      "react-icons@4.6.0": {
+        "integrity": "sha512-rR/L9m9340yO8yv1QT1QurxWQvWpbNHqVX0fzMln2HEb9TEIrQRGsqiNFQfiv9/JEUbyHmHPlNTB2LWm2Ttz0g==",
+        "dependencies": {}
       },
       "react-is@16.13.1": {
         "integrity": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==",
