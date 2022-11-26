@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-interface HeaderProps {}
-const Header: React.FC<HeaderProps> = () => {
+const Header: React.FC = () => {
   return (
     <HeaderStyle>
       <h1>ViteReactDeno</h1>
