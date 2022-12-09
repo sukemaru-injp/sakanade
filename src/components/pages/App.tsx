@@ -2,12 +2,12 @@ import React from 'react';
 import { LinkText } from '../atoms/LinkText';
 import styled from 'styled-components';
 import { TbPlaneDeparture} from 'react-icons/tb'
-import { Loader } from '../atoms/Loader';
+import { ethers } from 'ethers'
 
-const App = () => {
+const App: React.FC = () => {
+  console.log(ethers)
   return (
     <>
-      <Loader />
       <h1>TopPage</h1>
       <LinkText to='/sauna'>
         Goto Sauna

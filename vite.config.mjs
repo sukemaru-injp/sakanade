@@ -7,6 +7,7 @@ import 'npm:react-router-dom'
 import 'npm:styled-components'
 import 'npm:react-icons'
 import 'npm:recoil'
+import 'npm:ethers'
 
 // https://vitejs.dev/config/
 export default defineConfig({

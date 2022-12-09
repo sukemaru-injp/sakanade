@@ -1,8 +1,8 @@
 # Sakanade
 
-## Running
+`deno`,`vite`,`react`
 
-You need to have Deno v1.25.4 or later intalled to run this repo.
+## Running
 
 Start a dev server:
 
@@ -17,14 +17,3 @@ Build production assets:
 ```
 $ deno task build
 ```
-
-## Notes
-
-- You need to use `.mjs` or `.mts` extension for the `vite.config.[ext]` file.
-
-## Papercuts
-
-Currently there's a "papercut" for Deno users:
-
-- peer dependencies need to be referenced in `vite.config.js` - in this example
-  it is `react` and `react-dom` packages that need to be referenced
